@@ -20,7 +20,7 @@ app.UseHttpsRedirection();
 
 var summaries = new[]
 {
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+    "So Freezing", "Barely Bracing", "Brr Chilly", "So Cool", "Not So Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
 };
 
 app.MapGet("/", () =>
